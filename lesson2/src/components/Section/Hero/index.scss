@@ -1,0 +1,35 @@
+.hero {
+    margin-top: 130px;
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_info {
+            width: 506px;
+            &--title {
+                width: 93%;
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 60px;
+                color: black;
+            }
+            &--text {
+                margin: 40px 0;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #21243D;
+            }
+            &--btn {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 29px;
+                color: #FFFFFF;
+                background: #FF6464;
+                border-radius: 2px;
+                border: none;
+                padding: 9px 20px;
+            }
+        }
+    }
+}

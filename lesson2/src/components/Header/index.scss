@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    height: 70px;
+    // background: #4651;
+    padding: 20px 0;
+    .header__list {
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        list-style-type: none;
+        &_item {
+            column-gap: 35px;
+            &--link {
+                color: black !important;
+                column-gap: 35px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 29px;
+                text-align: right;
+            }
+        }
+    }
+}
